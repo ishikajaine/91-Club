@@ -18,6 +18,17 @@
             color: #fff;
             padding: 20px 10px;
             text-align: center;
+            position: relative;
+        }
+        header img.logo {
+            width: 100px;
+            margin-bottom: 10px;
+        }
+        .feature-image {
+            width: 100%;
+            max-height: 350px;
+            object-fit: cover;
+            display: block;
         }
         section {
             padding: 20px;
@@ -60,7 +71,11 @@
 </head>
 <body>
 
+    <!-- Feature Image -->
+    <img src="feature.jpg" alt="91 Club Feature Image" class="feature-image">
+
     <header>
+        <img src="logo.png" alt="91 Club Logo" class="logo">
         <h1>Welcome to 91 Club</h1>
         <p>Where Dreams Meet Reality</p>
     </header>
